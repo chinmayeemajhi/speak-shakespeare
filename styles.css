@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@700&display=swap');
+
+
+:root {
+    /* --primary-color: #7C3AED; */
+    --primary-color: #1F2937;
+    --dark-grey: #6B7280;
+    --off-white: #E5E7EB;
+}
+
+body {
+    font-family: 'Charm', cursive;
+    margin: 0px;
+    background-image: url("bg3.jpg");
+    background-color: #cccccc;
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+}
+
+
+div {
+    display: block;
+    
+}
+
+.navigation {
+    background-color: var(--primary-color);
+    color:white;
+    padding: 1rem;
+    font-weight: bold;
+    text-align: center;
+    opacity: 1;
+    
+    
+}
+
+main{
+    padding: 1rem;
+    margin:auto;
+    max-width: 600px;
+}
+
+textarea{
+
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    min-height: 20vh;
+    margin-top: 2rem;
+    font-size: large;
+    font-family:'Charm', cursive;
+    padding:0.5rem;
+    border-radius: 10px;
+    
+}
+
+button{
+
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 10px;
+    margin: 1rem 0rem;
+    padding: 1rem 2rem;
+    font-family: 'Charm', cursive;
+    font-size: large;
+    color:white;
+}
+
+#output{
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 10vh;
+    max-height: 20vh; 
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color:white;
+    margin-top: 5rem;
+}
+footer p {
+    max-width: 600px;
+    margin: auto;
+}
