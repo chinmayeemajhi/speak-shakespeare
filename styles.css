@@ -11,13 +11,10 @@
 body {
     font-family: 'Charm', cursive;
     margin: 0px;
-    background-image: url("bg3.jpg");
-    background-color: #cccccc;
+    /* background-image: url("bg3.jpg");
     height: 400px;
     background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
+    background-size: cover; */
     
 }
 
